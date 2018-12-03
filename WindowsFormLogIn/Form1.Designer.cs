@@ -38,7 +38,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(273, 171);
+            this.textBox1.Location = new System.Drawing.Point(273, 159);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(398, 46);
@@ -46,7 +46,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(273, 89);
+            this.textBox2.Location = new System.Drawing.Point(273, 77);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(398, 46);
@@ -59,7 +59,7 @@
             this.logoutButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.logoutButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logoutButton.ForeColor = System.Drawing.Color.Silver;
-            this.logoutButton.Location = new System.Drawing.Point(273, 258);
+            this.logoutButton.Location = new System.Drawing.Point(273, 246);
             this.logoutButton.Name = "logoutButton";
             this.logoutButton.Size = new System.Drawing.Size(172, 50);
             this.logoutButton.TabIndex = 2;
@@ -74,7 +74,7 @@
             this.loginButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.loginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loginButton.ForeColor = System.Drawing.Color.Silver;
-            this.loginButton.Location = new System.Drawing.Point(499, 258);
+            this.loginButton.Location = new System.Drawing.Point(499, 246);
             this.loginButton.Name = "loginButton";
             this.loginButton.Size = new System.Drawing.Size(172, 50);
             this.loginButton.TabIndex = 3;
@@ -85,7 +85,7 @@
             // 
             this.userNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.userNameLabel.ForeColor = System.Drawing.Color.Blue;
-            this.userNameLabel.Location = new System.Drawing.Point(96, 92);
+            this.userNameLabel.Location = new System.Drawing.Point(96, 80);
             this.userNameLabel.Name = "userNameLabel";
             this.userNameLabel.Size = new System.Drawing.Size(171, 43);
             this.userNameLabel.TabIndex = 4;
@@ -96,7 +96,7 @@
             // 
             this.userPasswordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.userPasswordLabel.ForeColor = System.Drawing.Color.Blue;
-            this.userPasswordLabel.Location = new System.Drawing.Point(91, 174);
+            this.userPasswordLabel.Location = new System.Drawing.Point(91, 162);
             this.userPasswordLabel.Name = "userPasswordLabel";
             this.userPasswordLabel.Size = new System.Drawing.Size(176, 43);
             this.userPasswordLabel.TabIndex = 5;
@@ -108,7 +108,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 377);
             this.Controls.Add(this.userPasswordLabel);
             this.Controls.Add(this.userNameLabel);
             this.Controls.Add(this.loginButton);
@@ -119,6 +119,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "formLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LOGIN FORM";
             this.ResumeLayout(false);
             this.PerformLayout();
