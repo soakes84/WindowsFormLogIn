@@ -38,7 +38,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(280, 153);
+            this.textBox1.Location = new System.Drawing.Point(273, 171);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(398, 46);
@@ -46,7 +46,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(280, 71);
+            this.textBox2.Location = new System.Drawing.Point(273, 89);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(398, 46);
@@ -55,10 +55,11 @@
             // logoutButton
             // 
             this.logoutButton.BackColor = System.Drawing.Color.Blue;
+            this.logoutButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.logoutButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.logoutButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logoutButton.ForeColor = System.Drawing.Color.Silver;
-            this.logoutButton.Location = new System.Drawing.Point(280, 240);
+            this.logoutButton.Location = new System.Drawing.Point(273, 258);
             this.logoutButton.Name = "logoutButton";
             this.logoutButton.Size = new System.Drawing.Size(172, 50);
             this.logoutButton.TabIndex = 2;
@@ -69,10 +70,11 @@
             // loginButton
             // 
             this.loginButton.BackColor = System.Drawing.Color.Blue;
+            this.loginButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.loginButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.loginButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loginButton.ForeColor = System.Drawing.Color.Silver;
-            this.loginButton.Location = new System.Drawing.Point(506, 240);
+            this.loginButton.Location = new System.Drawing.Point(499, 258);
             this.loginButton.Name = "loginButton";
             this.loginButton.Size = new System.Drawing.Size(172, 50);
             this.loginButton.TabIndex = 3;
@@ -83,7 +85,7 @@
             // 
             this.userNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.userNameLabel.ForeColor = System.Drawing.Color.Blue;
-            this.userNameLabel.Location = new System.Drawing.Point(103, 74);
+            this.userNameLabel.Location = new System.Drawing.Point(96, 92);
             this.userNameLabel.Name = "userNameLabel";
             this.userNameLabel.Size = new System.Drawing.Size(171, 43);
             this.userNameLabel.TabIndex = 4;
@@ -94,7 +96,7 @@
             // 
             this.userPasswordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.userPasswordLabel.ForeColor = System.Drawing.Color.Blue;
-            this.userPasswordLabel.Location = new System.Drawing.Point(98, 156);
+            this.userPasswordLabel.Location = new System.Drawing.Point(91, 174);
             this.userPasswordLabel.Name = "userPasswordLabel";
             this.userPasswordLabel.Size = new System.Drawing.Size(176, 43);
             this.userPasswordLabel.TabIndex = 5;
@@ -113,6 +115,7 @@
             this.Controls.Add(this.logoutButton);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
+            this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "formLogin";
