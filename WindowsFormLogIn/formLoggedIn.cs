@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormLogIn
 {
-    public partial class formLoggedIn2 : Form
+    public partial class formLoggedIn : Form
     {
-        public formLoggedIn2()
+        public formLoggedIn()
         {
             InitializeComponent();
         }

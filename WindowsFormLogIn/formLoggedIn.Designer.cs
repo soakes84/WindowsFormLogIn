@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormLogIn
 {
-    partial class formLoggedIn2
+    partial class formLoggedIn
     {
         /// <summary>
         /// Required designer variable.

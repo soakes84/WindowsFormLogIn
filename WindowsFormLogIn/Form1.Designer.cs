@@ -38,19 +38,24 @@
             // 
             // passwordTextBox
             // 
+            this.passwordTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.passwordTextBox.Location = new System.Drawing.Point(273, 159);
             this.passwordTextBox.Multiline = true;
             this.passwordTextBox.Name = "passwordTextBox";
+            this.passwordTextBox.PasswordChar = '*';
             this.passwordTextBox.Size = new System.Drawing.Size(398, 46);
-            this.passwordTextBox.TabIndex = 0;
+            this.passwordTextBox.TabIndex = 1;
+            this.passwordTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // userNameTextBox
             // 
+            this.userNameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.userNameTextBox.Location = new System.Drawing.Point(273, 77);
             this.userNameTextBox.Multiline = true;
             this.userNameTextBox.Name = "userNameTextBox";
             this.userNameTextBox.Size = new System.Drawing.Size(398, 46);
-            this.userNameTextBox.TabIndex = 1;
+            this.userNameTextBox.TabIndex = 0;
+            this.userNameTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // logoutButton
             // 
