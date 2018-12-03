@@ -28,29 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.passwordTextBox = new System.Windows.Forms.TextBox();
+            this.userNameTextBox = new System.Windows.Forms.TextBox();
             this.logoutButton = new System.Windows.Forms.Button();
             this.loginButton = new System.Windows.Forms.Button();
             this.userNameLabel = new System.Windows.Forms.Label();
             this.userPasswordLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // textBox1
+            // passwordTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(273, 159);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(398, 46);
-            this.textBox1.TabIndex = 0;
+            this.passwordTextBox.Location = new System.Drawing.Point(273, 159);
+            this.passwordTextBox.Multiline = true;
+            this.passwordTextBox.Name = "passwordTextBox";
+            this.passwordTextBox.Size = new System.Drawing.Size(398, 46);
+            this.passwordTextBox.TabIndex = 0;
             // 
-            // textBox2
+            // userNameTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(273, 77);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(398, 46);
-            this.textBox2.TabIndex = 1;
+            this.userNameTextBox.Location = new System.Drawing.Point(273, 77);
+            this.userNameTextBox.Multiline = true;
+            this.userNameTextBox.Name = "userNameTextBox";
+            this.userNameTextBox.Size = new System.Drawing.Size(398, 46);
+            this.userNameTextBox.TabIndex = 1;
             // 
             // logoutButton
             // 
@@ -80,6 +80,7 @@
             this.loginButton.TabIndex = 3;
             this.loginButton.Text = "LOGIN";
             this.loginButton.UseVisualStyleBackColor = false;
+            this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
             // 
             // userNameLabel
             // 
@@ -113,8 +114,8 @@
             this.Controls.Add(this.userNameLabel);
             this.Controls.Add(this.loginButton);
             this.Controls.Add(this.logoutButton);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.userNameTextBox);
+            this.Controls.Add(this.passwordTextBox);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
@@ -128,8 +129,8 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox passwordTextBox;
+        private System.Windows.Forms.TextBox userNameTextBox;
         private System.Windows.Forms.Button logoutButton;
         private System.Windows.Forms.Button loginButton;
         private System.Windows.Forms.Label userNameLabel;
